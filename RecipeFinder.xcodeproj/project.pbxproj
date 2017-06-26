@@ -13,6 +13,12 @@
 		7C8885071F01A7B1002AAC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8885051F01A7B1002AAC8F /* Main.storyboard */; };
 		7C8885091F01A7B1002AAC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8885081F01A7B1002AAC8F /* Assets.xcassets */; };
 		7C88850C1F01A7B1002AAC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C88850A1F01A7B1002AAC8F /* LaunchScreen.storyboard */; };
+		7C8885151F01BE06002AAC8F /* NutritionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8885141F01BE06002AAC8F /* NutritionFilter.swift */; };
+		7C8885181F01BE86002AAC8F /* UserInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8885171F01BE86002AAC8F /* UserInputViewController.m */; };
+		7C88851B1F01BEB0002AAC8F /* RecipesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C88851A1F01BEB0002AAC8F /* RecipesTableView.m */; };
+		7C88851E1F01BEDC002AAC8F /* DetailedRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C88851D1F01BEDC002AAC8F /* DetailedRecipeViewController.m */; };
+		7C8885211F01BF1D002AAC8F /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8885201F01BF1D002AAC8F /* Recipe.m */; };
+		7C8885241F01BFE4002AAC8F /* RecipeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8885231F01BFE4002AAC8F /* RecipeTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		7C8885081F01A7B1002AAC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C88850B1F01A7B1002AAC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C88850D1F01A7B1002AAC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8885131F01BE05002AAC8F /* RecipeFinder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipeFinder-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C8885141F01BE06002AAC8F /* NutritionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionFilter.swift; sourceTree = "<group>"; };
+		7C8885161F01BE86002AAC8F /* UserInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInputViewController.h; sourceTree = "<group>"; };
+		7C8885171F01BE86002AAC8F /* UserInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInputViewController.m; sourceTree = "<group>"; };
+		7C8885191F01BEB0002AAC8F /* RecipesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableView.h; sourceTree = "<group>"; };
+		7C88851A1F01BEB0002AAC8F /* RecipesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableView.m; sourceTree = "<group>"; };
+		7C88851C1F01BEDC002AAC8F /* DetailedRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedRecipeViewController.h; sourceTree = "<group>"; };
+		7C88851D1F01BEDC002AAC8F /* DetailedRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedRecipeViewController.m; sourceTree = "<group>"; };
+		7C88851F1F01BF1D002AAC8F /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		7C8885201F01BF1D002AAC8F /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		7C8885221F01BFE4002AAC8F /* RecipeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTVC.h; sourceTree = "<group>"; };
+		7C8885231F01BFE4002AAC8F /* RecipeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +81,22 @@
 				7C8885021F01A7B1002AAC8F /* ViewController.h */,
 				7C8885031F01A7B1002AAC8F /* ViewController.m */,
 				7C8885051F01A7B1002AAC8F /* Main.storyboard */,
+				7C8885221F01BFE4002AAC8F /* RecipeTVC.h */,
+				7C8885231F01BFE4002AAC8F /* RecipeTVC.m */,
+				7C88851F1F01BF1D002AAC8F /* Recipe.h */,
+				7C8885201F01BF1D002AAC8F /* Recipe.m */,
+				7C88851C1F01BEDC002AAC8F /* DetailedRecipeViewController.h */,
+				7C88851D1F01BEDC002AAC8F /* DetailedRecipeViewController.m */,
+				7C8885191F01BEB0002AAC8F /* RecipesTableView.h */,
+				7C88851A1F01BEB0002AAC8F /* RecipesTableView.m */,
+				7C8885161F01BE86002AAC8F /* UserInputViewController.h */,
+				7C8885171F01BE86002AAC8F /* UserInputViewController.m */,
+				7C8885141F01BE06002AAC8F /* NutritionFilter.swift */,
 				7C8885081F01A7B1002AAC8F /* Assets.xcassets */,
 				7C88850A1F01A7B1002AAC8F /* LaunchScreen.storyboard */,
 				7C88850D1F01A7B1002AAC8F /* Info.plist */,
 				7C8884FC1F01A7B1002AAC8F /* Supporting Files */,
+				7C8885131F01BE05002AAC8F /* RecipeFinder-Bridging-Header.h */,
 			);
 			path = RecipeFinder;
 			sourceTree = "<group>";
@@ -111,6 +141,7 @@
 					7C8884F81F01A7B1002AAC8F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = ZDL96S575W;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,9 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8885181F01BE86002AAC8F /* UserInputViewController.m in Sources */,
+				7C88851B1F01BEB0002AAC8F /* RecipesTableView.m in Sources */,
 				7C8885041F01A7B1002AAC8F /* ViewController.m in Sources */,
+				7C8885241F01BFE4002AAC8F /* RecipeTVC.m in Sources */,
+				7C8885211F01BF1D002AAC8F /* Recipe.m in Sources */,
 				7C8885011F01A7B1002AAC8F /* AppDelegate.m in Sources */,
+				7C8885151F01BE06002AAC8F /* NutritionFilter.swift in Sources */,
 				7C8884FE1F01A7B1002AAC8F /* main.m in Sources */,
+				7C88851E1F01BEDC002AAC8F /* DetailedRecipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +310,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZDL96S575W;
 				INFOPLIST_FILE = RecipeFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alhoussari.RecipeFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecipeFinder/RecipeFinder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -285,11 +326,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZDL96S575W;
 				INFOPLIST_FILE = RecipeFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alhoussari.RecipeFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecipeFinder/RecipeFinder-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
